@@ -1,12 +1,8 @@
 public class methodsInJava {
     public static void main(String[] args){
 
-        boolean gameOver=true;
-        int score = 800;
-        int levelCompleted = 5;
-        int bonus = 100;
-
         calculateScore(true,800,5,100);
+        calculateScore(true,10000,8,200);
 
 
     }
@@ -18,6 +14,10 @@ public class methodsInJava {
           finalScore+=1000;
 
           System.out.println("Your final score is \t"+ finalScore);
+      }
+
+      else{
+          System.out.println("Game is not yet over!!!!");
       }
 
     }
