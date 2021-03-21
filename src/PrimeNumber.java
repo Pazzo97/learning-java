@@ -14,14 +14,14 @@ public class PrimeNumber {
             System.out.println(n + " is not a prime number");
         }
 
-        int count=0;
-        for(int i=2;i<100;i++){
-            if (isPrime(i)){
-                count++;
-                System.out.println( i + " is a prime number!");
-
-            }
-        }
+//        int count=0;
+//        for(int i=2;i<100;i++){
+//            if (isPrime(i)){
+//                count++;
+//                System.out.println( i + " is a prime number!");
+//
+//            }
+//        }
 
 
 
