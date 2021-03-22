@@ -21,29 +21,29 @@ public class SwitchInJava {
 
 
 
-            switch (day){
+            switch(day.toUpperCase()) {
 
-                case "Monday":
+                case "MONDAY":
                     System.out.println("It is\t" + day + "\tget your ass to work!");
                     break;
 
-                case "Tuesday":
+                case "TUESDAY":
                     System.out.println("It is\t" + day + "\tget your ass to work!");
                     break;
 
-                case "Wednesday":
+                case "WEDNESDAY":
                     System.out.println("It is\t" + day + "\tget your ass to work!");
                     break;
 
-                case "Thursday":
+                case "THURSDAY":
                     System.out.println("It is\t" + day + "\tget your ass to work! two days to go");
                     break;
 
-                case "Friday":
+                case "FRIDAY":
                     System.out.println("It is\t" + day + "hang in there\tit is almost a weekend\nOnly 10 hours to go ");
                     break;
 
-                case "Saturday": case"Sunday":
+                case "SATURDAY": case"SUNDAY":
                     System.out.println("It is a weekend!\nEnjoy life!\t it is too short");
                     break;
 
