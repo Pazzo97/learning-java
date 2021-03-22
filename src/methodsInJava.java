@@ -1,7 +1,7 @@
 public class methodsInJava {
     public static void main(String[] args){
 
-        calculateScore(true,800,5,100);
+        calculateScore(false,800,5,100);
         calculateScore(true,10000,8,200);
 
 
