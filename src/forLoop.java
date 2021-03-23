@@ -10,8 +10,6 @@ public class forLoop {
 
         }
 
-
-
     }
 
     public static double calculateInterest(double amount, double interestRate){

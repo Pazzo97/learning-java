@@ -2,16 +2,17 @@ import java.util.Scanner;
 
 public class ATM_program {
 
-    private  static Scanner scanner;
-    private static String accountName="Patrick";
-    private static long accountNumber=298025922;
-    private static int balance=10_000;
-    private static int withdrawCharges=200;
+    public static Scanner scanner;
+    public static String accountName="Patrick";
+    public static long accountNumber=298025922;
+    public static int balance=10_000;
+    public static int withdrawCharges=200;
 
     public static void main(String[] args){
 
          scanner=new Scanner(System.in);
          services();
+
     }
 
     public static void services(){
